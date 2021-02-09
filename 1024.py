@@ -10,3 +10,4 @@ for i in range(len(a)):
 b = input()
 for i in b:
   print("'" + i + "'")
+  
