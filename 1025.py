@@ -1,0 +1,27 @@
+#다섯 자리의 정수 1개를 입력받아 각 자리별로 나누어 출력한다.
+
+a = input()
+
+print("[",end="")
+print(int(a[0])*10000,end="")
+print("]")
+print("[",end="")
+print(int(a[1])*1000,end="")
+print("]")
+print("[",end="")
+print(int(a[2])*100,end="")
+print("]")
+print("[",end="")
+print(int(a[3])*10,end="")
+print("]")
+print("[",end="")
+print(int(a[4])*1,end="")
+print("]")
+print()
+
+b=input()
+print("[" + str(int(b[0])*10000) + "]")
+print("[" + str(int(b[1])*1000) + "]")
+print("[" + str(int(b[2])*100) + "]")
+print("[" + str(int(b[3])*10) + "]")
+print("[" + str(int(b[4])*1) + "]")
